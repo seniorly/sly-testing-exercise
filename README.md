@@ -1,53 +1,3 @@
-# TwT Read (Twitter Reader)
-*important note* The first time you hit the /:handle endpoint, it may take a bit to compile, just wait for the terminal to say compiled successfully.
-
-The concept of TwTrD is to make reading tweets easier on the eyes. No other distractions, just you and the feed.
-
-I had fun with this project.
-
-The app is SSR'ed thanks to NextJS.
-
-Notes
-- Wanted to show knowledge of React and React context, refs, hooks, useReducer, etc...
-- Optimized the BE API for this FE.
-- Wanted to show knowledge of Typescript, NextJS, React-Window, CORS, Material UI Theming, Flexbox, Prettier, VSC.
-- Set up a debugger and VSC script for easy developing.
-- Wanted to show knowledge of correct routing in Browsers.
-
-Enhacements:
-- Serverless AWS Cloud infra as code for BE and FE.
-- Caching in browser and BE (users, data, assets)
-- More SEO, I only used correct html5 (a links for all navigations, headers, sections, ...). Canonical urls, important meta, snippet meta, and more could be done.
-- Analytics
-- logins and saving your favorites
-- nicer home page :)
-- Always more :)
-- 
-## Getting Started
-Local Development:
-  - npm install
-  - create a .env file with:
-    - consumer_key="xx"
-    - consumer_secret="xx"
-    - access_token_key="xx"
-    - access_token_secret="xx"
-    - port=3000
-  - Run `Local Debug` from VSC Debugger commands to start coding. (after running npm install and the server ofcourse)
-  - or npm run dev
-
-![`Local Debug`](./readme_assets/vsc_debug_start.png).
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-
-
 Seniorly testing exercise
 =================
 
@@ -58,6 +8,15 @@ the tweets of your favourite twitter accounts. Luckily for you, your teammate ha
 Your task is to write unit and functional tests for the application.
 The app has a single screen that is composed of two main components: Menu and Tweet Stream
 You can organize your testing around these components.
+
+# TwT Read (Twitter Reader)
+*important note* The first time you hit the /:handle endpoint, it may take a bit to compile, just wait for the terminal to say compiled successfully.
+
+The concept of TwTrD is to make reading tweets easier on the eyes. No other distractions, just you and the feed.
+
+Have fun with this project
+
+The app is SSR'ed thanks to NextJS.
 
 The Menu
 --------
@@ -87,8 +46,31 @@ Tech
 
 You are free to choose any tech that will aid you in writing the tests.
 
-Api usage
----------
+## Getting Started
+Local Development:
+  - npm install
+  - create a .env file with:
+    - consumer_key="xx"
+    - consumer_secret="xx"
+    - access_token_key="xx"
+    - access_token_secret="xx"
+    - port=3000
+  - Run `Local Debug` from VSC Debugger commands to start coding. (after running npm install and the server ofcourse)
+  - or npm run dev
+
+![`Local Debug`](./readme_assets/vsc_debug_start.png).
+
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+
 
 Uncompress the zip file and install the node modules
 
