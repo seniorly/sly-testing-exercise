@@ -14,9 +14,6 @@ You can organize your testing around these components.
 
 The concept of TwTrD is to make reading tweets easier on the eyes. No other distractions, just you and the feed.
 
-Have fun with this project
-
-The app is SSR'ed thanks to NextJS.
 
 The Menu
 --------
