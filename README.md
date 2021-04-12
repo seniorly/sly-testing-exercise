@@ -5,7 +5,7 @@ This exercise has a very simple premise. You like Twitter a lot, so you have
 decided to create a web app optimized for mobile with an infinite scroll to show
 the tweets of your favourite twitter accounts. Luckily for you, your teammate has already created the application.
 
-Your task is to write unit and functional tests for the application.
+## *Your task is to write unit and functional tests for the application*.
 The app has a single screen that is composed of two main components: Menu and Tweet Stream
 You can organize your testing around these components.
 
