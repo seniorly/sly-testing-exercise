@@ -87,6 +87,10 @@ To succesfully run any cypress tests you must have dev server running
 
 (see e2e/package.json)
 
+In the root directory to run jest. This will watch for changes and rerun your tests. To stop just do ctrl+C.
+
+npm run test
+
 You can generate keys and tokens in the Twitter developer portal:
 
 https://developer.twitter.com/en/apps
