@@ -75,10 +75,13 @@ export default function ExampleWrapper({
   const loadMoreItems = itemsLoading ? () => {} : loadNextItems;
 
   // Every row is loaded except for our loading indicator row.
-  const isItemLoaded = (index) => index < itemCount;
+  const isItemLoaded = (index) => items[index];
   const itemCountForList = itemCount + 1;
 
   function renderRow({ index, style }: ListChildComponentProps) {
+    if(!isItemLoaded(index)){
+      return null;
+    }
     const { created_at, full_text, id, media_url, web, media_type } = items[
       index
     ];
