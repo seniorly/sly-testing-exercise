@@ -4,12 +4,8 @@ This exercise has a very simple premise. You like Twitter a lot, so you have
 decided to create a web app optimized for mobile with an infinite scroll to show
 the tweets of your favourite twitter accounts. Luckily for you, your teammate has already created the application.
 
-<<<<<<< HEAD
 ### _Your task is to write unit and functional tests for the application_.
 
-=======
-### *Your task is to write unit and functional tests for the application*.
->>>>>>> origin
 A sample unit test is located src/components/Header.test.js
 A sample functional test is located at e2e/cypress/integration/sections.spec.js
 
