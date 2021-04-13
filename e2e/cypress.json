@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://www.lvh.me",
+  "baseUrl": "http://localhost:1337/",
   "reporter": "cypress-multi-reporters",
   "video": false,
   "reporterOptions": {

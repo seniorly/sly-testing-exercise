@@ -1,8 +1,10 @@
 # dependencies
 /node_modules
+/e2e/node_modules
 
 # testing
 /coverage
+test-results.xml
 
 # next.js
 /.next/
