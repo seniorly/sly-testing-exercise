@@ -60,13 +60,6 @@ Local Development:
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
 Uncompress the zip file and install the node modules
 
 npm install
@@ -75,7 +68,7 @@ Put twitter keys and secrets inside index.js and run
 
 npm start
 
-To Run Cypress you need to cd into the e2e directory and run
+**To Run Cypress you need to cd into the e2e directory and run**
 
 npm install
 
@@ -83,11 +76,7 @@ npm start // runs tests in terminal
 
 npm run open // opens cypress app
 
-To succesfully run any cypress tests you must have dev server running
-
-(see e2e/package.json)
-
-In the root directory to run jest. This will watch for changes and rerun your tests. To stop just do ctrl+C.
+To succesfully run any cypress tests you must have dev server running (see e2e/package.json) in the root directory to run jest. This will watch for changes and rerun your tests. To stop just do ctrl+C.
 
 npm run test
 
