@@ -77,7 +77,9 @@ npm start // runs tests in terminal
 
 npm run open // opens cypress app
 
-To succesfully run any cypress tests you must have dev server running (see e2e/package.json) in the root directory to run jest. This will watch for changes and rerun your tests. To stop just do ctrl+C.
+To succesfully run any cypress tests you must have dev server running (see e2e/package.json).
+
+In the root directory use the below command to run jest. This will watch for changes and rerun your tests. To stop just do ctrl+C.
 
 npm run test
 
