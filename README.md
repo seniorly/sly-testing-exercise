@@ -9,10 +9,14 @@ the tweets of your favourite twitter accounts. Luckily for you, your teammate ha
 A sample unit test is located src/components/Header.test.js
 A sample functional test is located at e2e/cypress/integration/sections.spec.js
 
+The task will be evaluated across two dimensions:
+1. Test Planning and Organization ( e.g: Are test cases sufficient, appropriate, prioritized, etc.)
+2. Programming Practices ( e.g: readibility, encapsulation etc.)
+
 The app has a single screen that is composed of two main components: Menu and Tweet Stream
 You can organize your testing around these components.
 
-# TwT Read (Twitter Reader)
+# About the Application: TwT Read (Twitter Reader)
 
 _important note_ The first time you hit the /:handle endpoint, it may take a bit to compile, just wait for the terminal to say compiled successfully.
 
@@ -32,10 +36,7 @@ The api will give you 20 tweets at a time. When then user has scrolled down
 _close_ to the oldest tweet in the list, the app should fetch the next 20,
 behaving like an infinite scroll.
 
-You can choose what data from the api could be nice to have, may be images if
-they come with the tweet, date, picture of the twitter user account, etc.
-
-Remember that this is a mobile optimized app, so it should be very confortable
+Remember that this is a mobile optimized app, so it should be very comfortable
 to scroll with the swiping gesture.
 
 ## Tech
@@ -90,15 +91,9 @@ https://developer.twitter.com/en/docs/basics/authentication/guides/securing-keys
 
 Then you can start to ping the url like this:
 
-http://localhost:3000/:handle[?max_id=...]
+http://localhost:3000/:handle
 
-For example
 
-http://localhost:3000/POTUS?max_id=1028275158342098944
-
-Where max_id is the newest tweet to show, this is normally the latest tweet
-id_str attribute in the previous request, take into account that there is always
-a duplicate tweet doing it like this.
 
 ## Expected deliverable
 
