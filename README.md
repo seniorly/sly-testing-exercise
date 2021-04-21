@@ -45,29 +45,17 @@ You are free to choose any tech that will aid you in writing the tests.
 
 ## Getting Started
 
-Local Development:
+Kicking off the Application locally:
 
-- npm install
+npm install
 - create a .env file with:
   - consumer_key="xx"
   - consumer_secret="xx"
   - access_token_key="xx"
   - access_token_secret="xx"
   - port=3000
-- Run `Local Debug` from VSC Debugger commands to start coding. (after running npm install and the server ofcourse)
-- or npm run dev
+- npm run dev
 
-![`Local Debug`](./readme_assets/vsc_debug_start.png).
-
-## Learn More
-
-Uncompress the zip file and install the node modules
-
-npm install
-
-Put twitter keys and secrets inside index.js and run
-
-npm start
 
 **To Run Cypress you need to cd into the e2e directory and run**
 
