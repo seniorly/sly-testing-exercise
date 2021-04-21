@@ -45,7 +45,7 @@ You are free to choose any tech that will aid you in writing the tests.
 
 ## Getting Started
 
-** To start the application locally**
+**To start the application locally**
 
 npm install
 - create a .env file with:
