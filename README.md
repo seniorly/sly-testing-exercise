@@ -45,7 +45,7 @@ You are free to choose any tech that will aid you in writing the tests.
 
 ## Getting Started
 
-Kicking off the Application locally:
+** To start the application locally**
 
 npm install
 - create a .env file with:
@@ -54,7 +54,7 @@ npm install
   - access_token_key="xx"
   - access_token_secret="xx"
   - port=3000
-- npm run dev
+npm run dev
 
 
 **To Run Cypress you need to cd into the e2e directory and run**
